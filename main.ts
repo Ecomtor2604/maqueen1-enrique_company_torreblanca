@@ -1,7 +1,7 @@
 Maqueen_V5.setRgblLed(Maqueen_V5.DirectionType.All, Maqueen_V5.CarLightColors.Red)
 basic.showIcon(IconNames.Happy)
 basic.forever(function () {
-    music.play(music.stringPlayable("C5 A B B A G E A ", 120), music.PlaybackMode.UntilDone)
+    music.play(music.stringPlayable("E B C5 A B G A F ", 120), music.PlaybackMode.UntilDone)
 })
 basic.forever(function () {
     if (maqueen.readPatrol(maqueen.Patrol.PatrolLeft) == maqueen.readPatrol(maqueen.Patrol.PatrolRight)) {
